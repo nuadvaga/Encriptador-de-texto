@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!--
+   
+    -->
+    <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="stylesPrueba.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="encabezado">
+        <h1> 🔏 PROGRAMA PARA ENCRIPTAR Y DESENCRIPTAR 🔓</h1><img id='logo' src="Logo.png" alt="Logo de Alura">
+    </header>
+
+    <main id="principal">
+        
+        <div id='contenido'> 
+            <article>
+                <div id="entrada">
+                    <textarea id="input-text" placeholder="Ingresa el texto para encriptar o desencriptar..." ></textarea>
+                    <!--<input type="text" id="input-text" placeholder="Ingresa el texto aquí..." >-->
+                </div>
+                <p><img id="admiracion" src="admiracion.png" alt="">Solo letras minusculas y sin acentos...</p>
+            </article>
+            <section id="botones">
+                <div id='encriptar' class="buttons">
+                    <button id="encriptar" class="btn-primary" >Encriptar</button>
+                   
+                </div>
+                <div id= 'desencriptar' class="buttons">
+                    <button id="desencriptar" class="btn-secondary" >Desencriptar</button>
+                </div>
+            </section>
+        </div>
+
+        <div id="resultado">
+            <aside>
+                <div id="salida">
+                    <textarea id="output-text"  ></textarea>
+                </div>
+                <div id="copiar">
+                    <button id="copy-button" class="btn-primary" >Copiar</button>
+                </div>
+            </aside>
+        </div>
+        
+          
+    </main>
+
+    <footer id="pie">
+       <blockquote id= "autor">
+            Encriptardor de texto, creado por Nuremberg Vasquez. 
+       </blockquote>
+    </footer>
+
+
+    
+    <script src="encriptador.js"></script> 
+</body>
+</html>
